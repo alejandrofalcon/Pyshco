@@ -75,6 +75,7 @@
         android:text="Correo electrónico"
         android:textColor="#FACF39"
         android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
@@ -89,6 +90,7 @@
         android:text="Contraseña"
         android:textColor="#FACF39"
         android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.106"
@@ -157,7 +159,9 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarme"
+        android:clickable="true"
+
+
         android:textColor="#FACF39"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -165,6 +169,8 @@
         app:layout_constraintHorizontal_bias="0.783"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintVertical_bias="0.86"
+        android:text="Registrarme"
+        android:onClick="Registrarse"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
