@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449177869211",
+    "project_id": "pyshco-1410e",
+    "storage_bucket": "pyshco-1410e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449177869211:android:d628dd5cb08c457b751f3e",
+        "android_client_info": {
+          "package_name": "com.example.pyshco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTj2Vvk7Dhn0uN32gUawot-Bm-rO9o69M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
