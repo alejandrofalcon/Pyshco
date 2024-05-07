@@ -12,7 +12,12 @@
           "package_name": "com.example.pyshco"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "449177869211-2978rfhhgu5m3jrfpri9hinrv3sn3m35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCTj2Vvk7Dhn0uN32gUawot-Bm-rO9o69M"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449177869211-2978rfhhgu5m3jrfpri9hinrv3sn3m35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
