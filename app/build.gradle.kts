@@ -37,7 +37,7 @@ android {
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     // Firebase BOM (Bill of Materials) para gestionar las versiones
@@ -48,9 +48,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
 
     // Dependencia de Google Play Services Auth
-    implementation("com.google.android.gms:play-services-auth:19.2.0")
-
-
+    implementation("com.google.android.gms:play-services-auth:21.1.1")
 
     implementation("com.google.firebase:firebase-auth:23.0.0")
    
