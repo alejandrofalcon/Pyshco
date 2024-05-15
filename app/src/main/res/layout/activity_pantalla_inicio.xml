@@ -62,10 +62,10 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="186dp"
-        android:layout_height="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/AzulOscuro"
-        android:text="ASIGNAR CITA"
+        android:text="       ASIGNAR CITA    "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
@@ -196,7 +196,7 @@
         app:layout_constraintVertical_bias="0.914" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageChat"
         android:layout_width="58dp"
         android:layout_height="64dp"
         android:src="@drawable/chat"
@@ -205,7 +205,9 @@
         app:layout_constraintHorizontal_bias="0.979"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.037"
+        android:clickable="true"
+        />
 
     <ImageView
         android:id="@+id/imageView4"

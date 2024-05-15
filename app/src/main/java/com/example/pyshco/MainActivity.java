@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseApp.initializeApp(this);
 
-        //mAuth = FirebaseAuth.getInstance();
+        mAuth = FirebaseAuth.getInstance();
+
         btnGmail= findViewById(R.id.btnGmail);
         EmailLogin= findViewById(R.id.EmailLogin);
         passLogin = findViewById(R.id.passLogin);
